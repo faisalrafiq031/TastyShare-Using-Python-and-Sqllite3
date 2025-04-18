@@ -44,21 +44,12 @@ git clone https://github.com/faisalrafiq031/TastyShare-Using-Python-and-Sqllite3
 ```
 
 ### 2. Install Dependencies
-You need to install the required Python packages. Create a virtual environment and install the dependencies from requirements.txt.
+You need to install the required Python packages. Install the dependencies.
 
 
 ```bash
-# Create a virtual environment
-python -m venv venv
-
-# Activate the virtual environment
-# On Windows
-venv\Scripts\activate
-# On MacOS/Linux
-source venv/bin/activate
-
 # Install dependencies
-pip install -r requirements.txt
+pip install streamlit pillow werkzeug
 ```
 
 ### 3. Run the App
@@ -235,8 +226,6 @@ Stores user information for authentication.
   <li><strong>Installation</strong>: Steps to set up the project.</li>
   <li><strong>Database Schema</strong>: Explanation of the database tables.</li>
   <li><strong>Authentication Flow</strong>: Detailed flow for user authentication and profile management.</li>
-  <li><strong>Screenshots</strong>: Placeholder for adding app screenshots.</li>
-  <li><strong>Contributing</strong>: Instructions for contributing to the project.</li>
   <li><strong>License</strong>: Information about the project license.</li>
   <li><strong>Acknowledgments</strong>: Credit to the technologies used in the project.</li>
 </ul>
